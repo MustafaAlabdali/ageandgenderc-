@@ -1,19 +1,23 @@
+/*
+Through this small project in C++
+when you run the code and enter your age along with your gender, you will be able to discover details about yourself. :D
+*/
 #include <iostream>
 using namespace std;
 int main() {
 	int age = 0;
 	cout << "Enter You'r Age :D ";
-		cin >> age;
-	char g='\0';
+	cin >> age;
+	char g = '\0';
 	cout << "Enter You'r Gender :D";
 	cin >> g;
 	if (age < 18 && == 'm');
-		cout << "male ," << "boy" << endl;
+	cout << "male ," << "boy" << endl;
 	else if (age >= 18 && g == 'm');
-		cout << "male," << "young man :D" << endl;
+	cout << "male," << "young man :D" << endl;
 	else if (age < 18 && == 'f');
-		cout << "female," << "girl" << endl;
+	cout << "female," << "girl" << endl;
 	else
-		cout << "female," << "young"<< endl;
+		cout << "female," << "young" << endl;
 	return  0;
 }
